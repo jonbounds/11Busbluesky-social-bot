@@ -3,10 +3,10 @@ import fs from "node:fs";
 
 const { BskyAgent } = blue;
 
-const BLUESKY_BOT_USERNAME = "<username>";
-const BLUESKY_BOT_PASSWORD = "<bot-password>";
+const BLUESKY_BOT_USERNAME = "11Bus";
+const BLUESKY_BOT_PASSWORD = "6qkp-t2iv-tvul-venf";
 
-const fileName = "./post.json";
+const fileName = "./11busposts.json";
 
 const generateFunnyCatQuote = async () => {
   const file = fs.readFileSync(fileName);
